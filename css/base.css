@@ -1,0 +1,27 @@
+:root{
+    --white-color:#ffffff;
+    --primary-color:#d82d8b;
+    --text-color:#f5f5f5;
+    --word-color:#707070;
+    --popular-color:#fff0f6;
+    --black-color: black ;
+}
+*{
+    box-sizing: inherit;
+}
+
+html{
+    /* font-size:100% được hiểu là 16px */
+    font-size: 62.5%;
+    /* Line-height: độ dài khung hình của từng dòng*/
+    line-height: 1.6rem;  
+    /* sans-serif: những chữ ko có chân */
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Responsive */
+.grid{
+    margin-left: 111px;
+    margin-right: 111px;
+}
